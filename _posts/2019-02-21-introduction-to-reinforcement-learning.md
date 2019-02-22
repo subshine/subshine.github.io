@@ -1,26 +1,10 @@
 ---
 layout: post
 title:【强化学习笔记】强化学习的介绍
-categories: Blog
+categories: Reinforcement Learning
 description: 强化学习笔记第一章
 keywords: Machine Learning, Reinforcement Learning
 ---
-
-
-- [前言](#1000)
-- [简介](#1001)
-- [基础概念](#1002)
-	- [奖励(Reward)](#1003)
-	- [代理(Agent)和环境(Environment)](#1004)
-	- [历史(History)和状态(State)](#1005)
-	- [代理里有哪些](#1006)
-		- [策略(Policy)](#1007)
-		- [值函数(Value function)](#1008)
-		- [模型(Model)](#1009)
-		- [代理的分类](#1010)
-- [学习(Learning)和规划(Planning)](#1011)
-- [探索(Exploration)与利用(Exploitation)](#1012)
-- [预测(Prediction)和控制(Control)](#1013)
 
 # 前言
 
