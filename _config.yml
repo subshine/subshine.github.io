@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://feedliu.github.io
 date_format: "ordinal"
 title: Feedliu
 subtitle: "Feedliu's Blogs"
@@ -81,7 +81,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: feedliu/feedliu.github.io
 
 # ---------------- #
 #      Comments    #
