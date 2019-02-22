@@ -1,8 +1,13 @@
 ---
 layout: post
-title: 【强化学习笔记】强化学习的介绍
-tags: [Reinforcement Learning, Machine Learning]
+title:【强化学习笔记】强化学习的介绍
+categories: Blog
+description: 强化学习笔记第一章
+keywords: Machine Learning, Reinforcement Learning
 ---
+
+* TOC
+{:toc}
 
 - [前言](#1000)
 - [简介](#1001)
