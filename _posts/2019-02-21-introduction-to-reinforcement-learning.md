@@ -1,5 +1,13 @@
 ---
 layout: post
+title: 一份简明的 Markdown 笔记与教程
+categories: Markdown
+description: 一份简明的 Markdown 笔记与教程
+keywords: Markdown, VSCode
+---
+
+---
+layout: post
 title:【强化学习笔记】强化学习的介绍
 categories: Reinforcement Learning
 description: 强化学习笔记第一章
