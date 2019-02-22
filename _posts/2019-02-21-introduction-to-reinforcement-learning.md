@@ -6,8 +6,6 @@ description: 强化学习笔记第一章
 keywords: Machine Learning, Reinforcement Learning
 ---
 
-* TOC
-{:toc}
 
 - [前言](#1000)
 - [简介](#1001)
@@ -24,7 +22,7 @@ keywords: Machine Learning, Reinforcement Learning
 - [探索(Exploration)与利用(Exploitation)](#1012)
 - [预测(Prediction)和控制(Control)](#1013)
 
-# <span id=1000>前言</span>
+# 前言
 
 之前一直打算学习一下强化学习，也看了一些教程，比如西瓜书《机器学习》上的强化学习教程，但学完发现公式非常复杂，给人一种非常痛苦的感觉，再比如莫凡强化学习教程，一开始就有点云里雾里的感觉，感觉这个教程是需要一定的强化学习基础，再去学就好多了。
 
@@ -36,7 +34,7 @@ keywords: Machine Learning, Reinforcement Learning
 
 我终于用了一个星期左右的时间看完了这个教程，这里相当于是一个学习笔记，主要内容是按照这个教程的ppt走的，可能会加一些自己的理解，如果有哪里不对的欢迎讨论。
 
-# <span id=1001></span>简介
+# 简介
 强化学习在不同的领域有不同的表现形式：
 
 ![many-faces-of-RL](https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/many-faces-of-RL.png?raw=true)
@@ -61,12 +59,12 @@ keywords: Machine Learning, Reinforcement Learning
 - 控制机器人走路
 - 在很多不同的Atari游戏上超越了人类
 
-# <span id=1002></span>基础概念
+# 基础概念
 这里用一个例子来阐述相关基础概念，如下图是一个迷宫，白色方块表示可以通行，黑色方块表示不能通行。start旁边的方格表示迷宫入口，Goal旁边的方格表示出口。
 
 ![maze](https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/maze.png?raw=true)
 
-## <span id=1003></span>奖励(Reward)
+## 奖励(Reward)
 - 奖励是一个标量反馈信号
 - $R_t$表明代理(Agent)在第t步做的有多好
 - 代理的工作就是最大化累积奖励(也就是我最大化我的整个过程中的奖励和，而不是最大化某一步的奖励)
@@ -85,7 +83,7 @@ keywords: Machine Learning, Reinforcement Learning
 >这是个特例，其他的例子中奖励可能会根据不同的状态下作出不同的动作而有所不同，并不全是-1。有的任务中奖励可能是明确的，比如打飞机游戏中，打掉一个飞机多少分数，打掉一个boss多少分数，而这个奖励以及打掉飞机和打掉boss的奖励相对大小都是根据游戏的宗旨(努力存活更久)制定的，而现实中我们要解决的任务中，可能需要我们自己去根据任务目标和不明确的反馈来制定奖励函数。这里举一个例子，比如百度搜索排序任务中，用户在搜索结果中点击排在第一的item和点击排在第二的item奖励显然不同，或者点击搜索结果第二页的item，奖励也不同，这就需要我们根据这些不明确的反馈来制定奖励函数。后面有机会再介绍工业上强化学习的运用。
 
 
-## <span id=1004></span>代理(Agent)和环境(Environment)
+## 代理(Agent)和环境(Environment)
 强化学习的过程实际就是一个代理和环境交互的过程。
 
 在第t步，代理：
