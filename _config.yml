@@ -4,10 +4,10 @@
 baseurl:
 url: https://mazhuang.org
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: Feedliu
+subtitle: "Feedliu's Blogs"
+description: "Share my coding life"
+keywords: Feedliu
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,12 +15,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: feedliu
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: feedliu
+location: Beijing, China
+email: feedliu15@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -28,11 +28,11 @@ email: chumpma@gmail.com
 navs:
   -
     href: /
-    label: 首页
+    label: Home
 
   -
     href: /categories/
-    label: 分类
+    label: Category
 
 #   -
 #     href: /archives/
@@ -40,15 +40,15 @@ navs:
 
   -
     href: /wiki/
-    label: 维基
+    label: Wiki
 
-  -
-    href: /links/
-    label: 链接
+#  -
+#    href: /links/
+#    label: Link
 
   -
     href: /about/
-    label: 关于
+    label: About
 
 # ---------------- #
 #       RSS        #
