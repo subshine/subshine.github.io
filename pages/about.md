@@ -25,4 +25,4 @@ permalink: /about/
 Github： https://github.com/feedliu
 
 微信公众号： feedliu
-![二维码](https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/qrcode.bmp?raw=true)
+![二维码](https://raw.githubusercontent.com/feedliu/feedliu.github.io/master/images/pages/qrcode.bmp)
