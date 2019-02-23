@@ -10,7 +10,7 @@ keywords: Machine Learning, Reinforcement Learning
 
 之前一直打算学习一下强化学习，也看了一些教程，比如西瓜书《机器学习》上的强化学习教程，但学完发现公式非常复杂，给人一种非常痛苦的感觉，再比如莫凡强化学习教程，一开始就有点云里雾里的感觉，感觉这个教程是需要一定的强化学习基础，再去学就好多了。
 
-最近找到了口碑不错的一个教程，是出自David Sliver的，这位大神是来自DeepMind团队的，教程深入浅出，是我目前看到的入门强化学习最好的教学，教学资源请点击[这里](https://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching.html)，里面包括ppt和英文视频，网友也有[中文版](https://www.bilibili.com/video/av32149008?from=search&seid=9588183746086039596)的视频翻译，不过有些地方翻译的不太准确，不过配合ppt看的话，也还能看。如果你想学习这份教程，我有以下几点建议：
+最近找到了口碑不错的一个教程，是出自David Sliver的，这位大神是来自DeepMind团队的，教程深入浅出，是我目前看到的入门强化学习最好的教学，教学资源请点击[这里](http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching.html)，里面包括ppt和英文视频，网友也有[中文版](https://www.bilibili.com/video/av32149008?from=search&seid=9588183746086039596)的视频翻译，不过有些地方翻译的不太准确，不过配合ppt看的话，也还能看。如果你想学习这份教程，我有以下几点建议：
 
 - 如果你的英文水平不错的话，建议直接观看原英文视频，并在看完是视频后过一遍ppt
 - 如果你的英文水平看英文视频吃力的话，建议先认真的看一遍ppt，然后带着问题去看中文视频
