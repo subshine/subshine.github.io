@@ -25,4 +25,5 @@ permalink: /about/
 Github： https://github.com/feedliu
 
 微信公众号： feedliu
+
 <div style="text-align:center"><img src ="https://raw.githubusercontent.com/feedliu/feedliu.github.io/master/images/pages/qrcode.bmp" /></div>
