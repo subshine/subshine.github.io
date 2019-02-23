@@ -1,32 +1,19 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: Share my coding life
+keywords: Feedliu
 comments: true
-menu: 关于
+menu: About
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
 
-仰慕「优雅编码的艺术」。
 
-坚信熟能生巧，努力改变人生。
-
-## 联系
-
-{% for website in site.data.social %}
-* {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
-{% endfor %}
-
-## Skill Keywords
-
-{% for category in site.data.skills %}
-### {{ category.name }}
-<div class="btn-inline">
-{% for keyword in category.keywords %}
-<button class="btn btn-outline" type="button">{{ keyword }}</button>
-{% endfor %}
-</div>
-{% endfor %}
+姓名： 刘耀
+学历： 研究生
+学校： 本科毕业于武汉大学，研究生毕业于中国科学院大学
+专业： 机器学习
+公司： 百度，核心搜索部
+职位： 算法工程师
+Github： https://github.com/feedliu
