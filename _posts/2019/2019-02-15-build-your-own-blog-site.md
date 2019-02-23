@@ -152,11 +152,17 @@ remote_theme: daattali/beautiful-jekyll
 
 ![](https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/blog-example.png?raw=true)
 
+#### 清理数据
+
+- 清理blogs、drafts、wiki、images文件夹中别人的数据
+- 修改`pages/`中404页面和about页面
+
 至此，已经搭建了一个功能完整的个人博客。此外，还有一些额外功能。
+
 
 #### 添加评论功能
 
-你可以添加第三方评论，这里采用的是gittalk，简单使用issue作为评论，也就是你使用github账号评论博客。具体参考[这里](https://github.com/gitalk/gitalk#install)。
+你可以添加第三方评论,支持qq和微信登录评论等，这里采用的是gittalk，简单使用issue作为评论，也就是你使用github账号评论博客。具体参考[这里](https://github.com/gitalk/gitalk#install)。
 
 - 注册一个[OAuth App](https://github.com/settings/developers)，注册时`Authorization callback URL`这一栏填你的博客地址`https://feedliu.github.io`
 - github里新建一个项目，取名为`blog-comments`，名字无所谓
