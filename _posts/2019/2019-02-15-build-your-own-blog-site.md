@@ -150,7 +150,7 @@ remote_theme: daattali/beautiful-jekyll
 
 最终主页该博客显示效果：
 
-![](https://github.com/feedliu/feedliu.github.io/blob/master/_post_resources/build_your_own_blog.png?raw=true)
+![](https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/blog-example.png?raw=true)
 
 至此，已经搭建了一个功能完整的个人博客。此外，还有一些额外功能。
 
