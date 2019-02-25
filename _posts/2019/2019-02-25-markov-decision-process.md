@@ -10,7 +10,7 @@ MDP(Markov Decision Process，马尔科夫决策过程)是强化学习的重要�
 
 # MDP(Markov Decision Process)
 
-这里引入一个例子来讲解MDP相关概念。这个例子是原教程中的一个例子，描述的是一个学生的MDP。圆圈表示的是状态，方块表示终止状态。箭头表示状态转移，箭头上的小数表示转移概率，箭头上的文字表示动作，比如Facebook表示刷Facebook的动作，Sleep表示睡觉的动作。这个例子还是挺符合生活的，比如如果学生刷Facebook，他有90%的概率继续刷Facebook。
+这里引入一个例子来讲解MDP相关概念。这个例子是原教程中的一个例子，描述的是一个学生的MDP。圆圈表示的是状态，方块表示终止状态。箭头表示状态转移，箭头上的小数表示转移概率，箭头上的文字表示动作，比如Facebook表示刷Facebook的动作，Sleep表示睡觉的动作。这个例子还是挺符合生活的，比如如果学生刷Facebook，他有90%的概率继续刷Facebook。采用的原教程中的截图，因为一张图表达不了所有的信息，所以这里建议两张图结合着看。至于第一张图比第二张图少一个状态，这个无所谓，不妨碍后面相关概念的理解。
 
 ![](https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/Student-MP.png?raw=true)
 
@@ -66,7 +66,7 @@ $$
 
 ![](https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/example-prob-matrix.png?raw=true)
 
-# 回报(Return)
+## 回报(Return)
 
 回报 $G_t$ 指的是t步的折扣奖励和
 
