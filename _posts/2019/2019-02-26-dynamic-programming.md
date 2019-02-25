@@ -1,8 +1,8 @@
 ---                            
 layout: post                   
-title: 【强化学习笔记3】动态规划
+title: 【强化学习笔记2】马尔科夫决策过程
 categories: RL                 
-description: 强化学习笔记第三章
+description: 强化学习笔记第二章
 keywords: Machine Learning, Reinforcement Learning, DP
 --- 
 
@@ -18,9 +18,12 @@ DP(Dynamic Programming，动态规划)也是强化学习的重要基础，因为
 - 中间状态5、6、9、10有四个动作(向上、向下、向左、向右)，靠边状态1、2、4、8、13、14、7、11有三个动作(不能出格子)，靠角落的状态3、12有两个动作，阴影状态为结束状态
 - $\gamma = 1$
 - 初始策略为均匀随机策略
-$\pi(向上 \mid 5) = \pi(向下 \mid 5) = \pi(向左 \mid 5) = \pi(向右 \mid 5) = \frac{1}{4}$
-$\pi(向下 \mid 1) = \pi(向左 \mid 1) = \pi(向右 \mid 1) = \frac{1}{3}$
-$\pi(向下 \mid 3) = \pi(向左 \mid 3) = \frac{1}{2}$
+$$
+\begin{aligned}
+\pi(向上 \mid 5) &= \pi(向下 \mid 5) = \pi(向左 \mid 5) = \pi(向右 \mid 5) = \frac{1}{4} \\
+\pi(向下 \mid 1) &= \pi(向左 \mid 1) = \pi(向右 \mid 1) = \frac{1}{3} \\
+\pi(向下 \mid 3) &= \pi(向左 \mid 3) = \frac{1}{2} \\
+\end{aligned}$$
 
 ## 简介
 
