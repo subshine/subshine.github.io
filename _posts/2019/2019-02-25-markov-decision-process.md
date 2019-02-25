@@ -174,9 +174,9 @@ $$v_\pi = (I - \gamma P^\pi)^{-1} R^\pi$$
 
 **最优状态值**指的是所有的策略中得到的最大状态值，**最优状态-动作值**指的是所有的策略中得到的最大状态-动作值。
 
-$$v_*(s) = \max_\pi v_\pi(s)$$
+$$v_\ast(s) = \max_\pi v_\pi(s)$$
 
-$$q_*(s,a) = \max_\pi q_\pi(s,a)$$
+$$q_\ast(s,a) = \max_\pi q_\pi(s,a)$$
 
 最优值函数表明了MDP可能的最好性能，当我们知道最优值函数，这个MDP问题就得到解决了。
 
@@ -194,22 +194,22 @@ $\pi \ge \pi'$  if  $v_\pi(s) \ge v_\pi'(s), \forall{s}$
 
 对于所有的MDP
 
-- 一定存在一个最优策略 $\pi_*$ 优于其他的策略, $\pi_* \ge \pi, \forall{\pi}$
-- 按照最优策略一定得到最优状态值函数，$v_{\pi_*}(s) = v_*(s)$
-- 按照最优策略一定得到最优状态-动作值函数，$q_{\pi_*}(s,a) = q_*(s,a)$
+- 一定存在一个最优策略 $\pi_\ast$ 优于其他的策略, $\pi_\ast \ge \pi, \forall{\pi}$
+- 按照最优策略一定得到最优状态值函数，$v_{\pi_\ast}(s) = v_\ast(s)$
+- 按照最优策略一定得到最优状态-动作值函数，$q_{\pi_\ast}(s,a) = q_\ast(s,a)$
 
 那么如何求最优策略呢？
 
-一个最优策略可以通过最大化 $q_*(s, a)$得到
+一个最优策略可以通过最大化 $q_\ast(s, a)$得到
 
-$$\pi_*(a \mid s) = 
+$$\pi_\ast(a \mid s) = 
 \begin{cases}
-1 & if & a = \underset{a \in A}{\operatorname{argmax}}{q_*(s,a)} \\
+1 & if & a = \underset{a \in A}{\operatorname{argmax}}{q_\ast(s,a)} \\
 0 & otherwise \\
 \end{cases}$$
 
 - 对于任何一个MDP，一定存在一个确定性的最优策略
-- 如果我们知道最优状态-动作值函数 $q_*(s,a)$，相当于得到了最优策略
+- 如果我们知道最优状态-动作值函数 $q_\ast(s,a)$，相当于得到了最优策略
 
 对于学生MDP的例子来说，最优策略用红线标出
 
@@ -217,14 +217,14 @@ $$\pi_*(a \mid s) =
 
 ## 贝尔曼最优方程
 
-这里是针对最优值函数 $v_*$ 和 $q_*$ 的贝尔曼方程，同时揭示了它们之间的关系，建议同贝尔曼期望方程结合着看
+这里是针对最优值函数 $v_\ast$ 和 $q_\ast$ 的贝尔曼方程，同时揭示了它们之间的关系，建议同贝尔曼期望方程结合着看
 
 |图示|公式|
 |:----:|:----:|
-|![optimal-pi](https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/optimal-V-Q-1.png?raw=true)|$$v_*(s) = \max_a{q_*(s,a)}$$|
-|![optimal-pi](https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/optimal-V-Q-2.png?raw=true)|$$q_*(s,a) = R_s^a + \gamma \sum_{s' \in S}{P_{ss'}^a v_*(s')}$$|
-|![optimal-pi](https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/optimal-V-Q-3.png?raw=true)|$$v_*(s) = \max_a R_s^a + \gamma \sum_{s' \in S}{P_{ss'}^a v_*(s')}$$|
-|![optimal-pi](https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/optimal-V-Q-4.png?raw=true)|$$q_*(s,a) = R_s^a + \gamma \sum_{s' \in S}{P_{ss'}^a \max_{a'}{q_*(s',a')}}$$|
+|![optimal-pi](https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/optimal-V-Q-1.png?raw=true)|$$v_\ast(s) = \max_a{q_\ast(s,a)}$$|
+|![optimal-pi](https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/optimal-V-Q-2.png?raw=true)|$$q_\ast(s,a) = R_s^a + \gamma \sum_{s' \in S}{P_{ss'}^a v_\ast(s')}$$|
+|![optimal-pi](https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/optimal-V-Q-3.png?raw=true)|$$v_\ast(s) = \max_a R_s^a + \gamma \sum_{s' \in S}{P_{ss'}^a v_\ast(s')}$$|
+|![optimal-pi](https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/optimal-V-Q-4.png?raw=true)|$$q_\ast(s,a) = R_s^a + \gamma \sum_{s' \in S}{P_{ss'}^a \max_{a'}{q_\ast(s',a')}}$$|
 
 对于学生的MDP例子，我们展示上述第三个公式的例子
 
