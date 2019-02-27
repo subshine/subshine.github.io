@@ -1,6 +1,6 @@
 ---                            
 layout: post                   
-title: 【强化学习笔记3】马尔科夫决策过程
+title: 【强化学习笔记3】MDP的动态规划
 categories: RL                 
 description: 强化学习笔记第三章
 keywords: Machine Learning, Reinforcement Learning, DP
