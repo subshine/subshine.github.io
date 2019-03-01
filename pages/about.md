@@ -8,7 +8,7 @@ menu: About
 permalink: /about/
 ---
 
-
+>我宁愿犯错，也不愿什么都不做。
 
 姓名： 刘耀
 
