@@ -5,8 +5,8 @@ baseurl:
 url: https://feedliu.github.io
 date_format: "ordinal"
 title: "Feedliu's Blogs"
-subtitle: "Share my coding life"
-description: "Share my coding life"
+subtitle: "Share My Coding Life"
+description: "Share My Coding Life"
 keywords: Feedliu
 timezone: Asia/Shanghai
 encoding: "utf-8"
