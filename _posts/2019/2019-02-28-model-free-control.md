@@ -118,7 +118,7 @@ $$
 否则返回第2步
 $S \leftarrow S', A \leftarrow A'$
 
-因为异步TD控制方法需要<S,A,R,S',A'>，所以也称作 **Sarsa**方法。
+因为同步TD控制方法需要<S,A,R,S',A'>，所以也称作 **Sarsa**方法。
 
 原教程中给出了Sarsa的收敛性证明以及Sarsa($\lambda$)算法(Sarsa$\lambda$的策略评估部分使用的TD($\lambda$)算法)，感兴趣的请移步原教程。
 
