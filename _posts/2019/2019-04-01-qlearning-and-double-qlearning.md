@@ -1,7 +1,7 @@
 ---
 layout: post    
 title: Q-learning 和 Double Q-learning
-categories: RL, RL Feeling    
+categories: RL, RL_Feeling    
 description: Q-learning 和 Double Q-learning的区别
 keywords: Machine Learning, Reinforcement Learning, Q-learning, Double Q-learning
 ---

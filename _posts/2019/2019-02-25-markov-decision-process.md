@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 【强化学习笔记2】马尔科夫决策过程
-categories: RL
+categories: RL, RL_Notes
 description: 强化学习笔记第二章
 keywords: Machine Learning, Reinforcement Learning, MDP                                                      
 ---

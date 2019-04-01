@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 【强化学习笔记4】无模型预测
-categories: RL
+categories: RL, RL_Notes
 description: 强化学习笔记第四章
 keywords: Machine Learning, Reinforcement Learning, Model-Free Prediction
 ---
