@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 【强化学习笔记1】强化学习的介绍
-categories: RL, RL_Notes
+categories: RL RL_Notes
 description: 强化学习笔记第一章
 keywords: Machine Learning, Reinforcement Learning
 ---

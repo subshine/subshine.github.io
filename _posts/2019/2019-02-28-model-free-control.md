@@ -1,7 +1,7 @@
 ---
 layout: post    
 title: 【强化学习笔记5】无模型控制
-categories: RL, RL_Notes    
+categories: RL RL_Notes    
 description: 强化学习笔记第五章
 keywords: Machine Learning, Reinforcement Learning, Model-Free Control
 ---
