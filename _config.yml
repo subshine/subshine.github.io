@@ -95,14 +95,14 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: sunshine
+    owner: subshine
     repo: blog-comments
     oauth:
         client_id: d2e1cbbd298958076462
         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: sunshine
+    owner: subshine
     repo: blog_comments
     clientID: c2080382bf6dc65426f7
     clientSecret: 08cc2027a0274a868fb681529c69a91e54bdac7e
