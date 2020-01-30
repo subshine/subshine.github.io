@@ -1,7 +1,7 @@
 ---
 layout: post
 title: cartographer 运行自己的数据集
-categories: [激光SLAM]
+categories: 激光SLAM
 description: cartographer run demo
 keywords: cartographer
 ---
