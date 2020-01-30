@@ -26,4 +26,4 @@ Github： https://github.com/subshine
 
 微信公众号： 纷繁中淡定
 
-<div style="text-align:center"><img src ="https://raw.githubusercontent.com/feedliu/feedliu.github.io/master/images/pages/qrcode.bmp" /></div>
+
