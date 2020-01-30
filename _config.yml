@@ -7,7 +7,7 @@ date_format: "ordinal"
 title: "sunshine Blogs"
 subtitle: "Share My Coding Life"
 description: "Share My Coding Life"
-keywords: 
+keywords: sunshine
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,7 +15,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: feedliu
+author: sunshine
 organization: 
 organization_url: 
 github_username: feedliu
