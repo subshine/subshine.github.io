@@ -1,29 +1,29 @@
 ---
 layout: page
 title: About
-description: Share my coding life
-keywords: Feedliu
+description: talk is the cheap,show me the code.
+keywords: sunshine
 comments: true
 menu: About
 permalink: /about/
 ---
 
->我宁愿犯错，也不愿什么都不做。
+>想得到的都得到，得不到的释怀。
 
-姓名： 刘耀
+姓名： 杨光
 
 学历： 研究生
 
-学校： 本科毕业于武汉大学，研究生毕业于中国科学院大学
+学校： 本科毕业于内蒙古大学，研究生在读华北电力大学（保定）
 
-专业： 机器学习
+专业： 控制工程
 
-公司： 百度，核心搜索部
+实习公司：北京紫梧桐资产管理公司（数据智能中心—AI应用） 
 
-职位： 算法工程师
+职位： 视觉SLAM算法实习生
 
-Github： https://github.com/feedliu
+Github： https://github.com/subshine
 
-微信公众号： feedliu
+微信公众号： 纷繁中淡定
 
 <div style="text-align:center"><img src ="https://raw.githubusercontent.com/feedliu/feedliu.github.io/master/images/pages/qrcode.bmp" /></div>
