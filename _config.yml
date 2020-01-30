@@ -5,10 +5,10 @@ baseurl:
 url: https://subshine.github.io
 date_format: "ordinal"
 title: "sunshine Blogs"
-subtitle: "Share My Coding Life"
-description: "Share My Coding Life"
+subtitle: "yang_guang_coding life"
+description: "yangguang_coding Life"
 keywords: sunshine
-timezone: Asia/Shanghai
+timezone: Asia/Beijing
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
@@ -18,9 +18,9 @@ side_bar_repo_limit: 5
 author: sunshine
 organization: 
 organization_url: 
-github_username: feedliu
+github_username: subshine
 location: Beijing, China
-email: feedliu15@gmail.com
+email: yg19960916@163.com
 
 # ---------------- #
 #    Navigation    #
