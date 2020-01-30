@@ -2,25 +2,25 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://feedliu.github.io
+url: https://subshine.github.io
 date_format: "ordinal"
-title: "Feedliu's Blogs"
-subtitle: "Share My Coding Life"
-description: "Share My Coding Life"
-keywords: Feedliu
-timezone: Asia/Shanghai
+title: "sunshine's blog"
+subtitle: "talk is cheap,show me the code"
+description: "Talk is cheap,show me the code"
+keywords: sunshine
+timezone: Asia/Beijing
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: feedliu
+author: yangguang
 organization: 
 organization_url: 
-github_username: feedliu
+github_username: sunshine
 location: Beijing, China
-email: feedliu15@gmail.com
+email: yg19960916@163.com
 
 # ---------------- #
 #    Navigation    #
