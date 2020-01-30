@@ -81,7 +81,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: feedliu/feedliu.github.io
+repository: subshine/sunshine.github.io
 
 # ---------------- #
 #      Comments    #
@@ -95,7 +95,7 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
+    owner: sunshine
     repo: blog-comments
     oauth:
         client_id: d2e1cbbd298958076462
