@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://feedliu.github.io
+url: https://subshine.github.io
 date_format: "ordinal"
-title: "Feedliu's Blogs"
+title: "sunshine Blogs"
 subtitle: "Share My Coding Life"
 description: "Share My Coding Life"
-keywords: Feedliu
+keywords: 
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
