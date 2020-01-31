@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wiki
-description: 人越学越觉得自己无知
+description: 生活不再别处，脚下即是前方
 keywords: 维基, Wiki
 comments: false
 menu: 维基
