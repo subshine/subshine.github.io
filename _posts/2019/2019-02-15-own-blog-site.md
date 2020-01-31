@@ -1,12 +1,15 @@
 ---
 layout: post
 title: 使用Github搭建自己的个人博客
-categories: sunshine
+categories: 网站
 description: 搭建个人博客
-keywords: github pages, github, personal blog
+keywords: personal blog
 ---
 
+**版权声明：** 本博客所有文章除特别声明外，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议。转载请注明出处
+
 现在，越来越多的技术人员都有写博客的习惯，来记录学习笔记、分享个人想法、与同行交流等等。这导致了大量博客、社交网站的兴起，比如csdn、简书、博客园、知乎等等。但是这些都是借助别人的平台，有诸多不便，比如你的博客样式是平台定的，你的博客可能有大量的广告，等等。如果你想拥有个性化的、纯净的博客，你可以自己搭建一个博客平台，可能需要一下这些步骤：
+
 - 购买域名
 - 部署网站
 - 设计网站样式
@@ -18,7 +21,7 @@ keywords: github pages, github, personal blog
 
 首先你得拥有一个github账号，如果没有请先注册一个账号。
 
->最终个人博客的网址与注册的账号名有关，比如你注册的账户名为:`bob`，那么最终你的博客网址为:`https://bob.github.io`或者`https://bob.github.io/<projectname>`。下文中假设你的账户名为`feedliu`，实际上这是我的账户名，请将一下所有出现feedliu的地方改为你的github账号名。
+>最终个人博客的网址与注册的账号名有关，比如你注册的账户名为:`bob`，那么最终你的博客网址为:`https://bob.github.io`或者`https://bob.github.io/<projectname>`。下文中假设你的账户名为`feedliu`，实际上这是我的账户名，请将一下所有出现subshine的地方改为你的github账号名。
 
 这里的教程分为两部分：
 - 自己设计博客样式
@@ -33,7 +36,7 @@ keywords: github pages, github, personal blog
 ### 新建一个项目
 
 新建项目时，还有个点，就是用户网站和项目网站的区别，官方介绍请参考[这里](https://help.github.com/articles/user-organization-and-project-pages/)。实际上，我感觉差别不大。
-如果你想新建用户网站，请将项目命名为`feedliu.github.io`，最终你的个人博客地址为`https://feedliu.github.io`;如果你想新建项目网站，可以随意命名，假设你的项目名为`blog`，那么最终你的个人博客地址为`https://feedliu.github.io/blog`。建议你新建项目网站，跟教程同步。
+如果你想新建用户网站，请将项目命名为`subshine.github.io`，最终你的个人博客地址为`https://feedliu.github.io`;如果你想新建项目网站，可以随意命名，假设你的项目名为`blog`，那么最终你的个人博客地址为`https://subshine.github.io/blog`。建议你新建项目网站，跟教程同步。
 
 ### 新建index.html文件
 
@@ -59,7 +62,7 @@ Hello, world!
         README.md
     ```
 - 删除`index.html`文件
-- 等待几分钟后，登录网址`https://feedliu.github.io/blog`查看
+- 等待几分钟后，登录网址`https://subshine.github.io/blog`查看
 
 >这里的_config.yml非常重要，是整个网站的配置文件，控制着网站的页头、页脚、样式、包含文件等等。不管你是自己设计还是借用别人的，都会有这个文件。
 
@@ -124,7 +127,7 @@ remote_theme: daattali/beautiful-jekyll
 
 #### 修改fork的项目名称
 
-修改你刚刚fork的项目名称，建议改为`feedliu.github.io`（注意将feedliu改成你的github账号）
+修改你刚刚fork的项目名称，建议改为`feedliu.github.io`（注意将subshine改成你的github账号）
 
 #### 修改 _config.yml 配置文件
 
@@ -164,7 +167,7 @@ remote_theme: daattali/beautiful-jekyll
 
 你可以添加第三方评论,支持qq和微信登录评论等，这里采用的是gittalk，简单使用issue作为评论，也就是你使用github账号评论博客。具体参考[这里](https://github.com/gitalk/gitalk#install)。
 
-- 注册一个[OAuth App](https://github.com/settings/developers)，注册时`Authorization callback URL`这一栏填你的博客地址`https://feedliu.github.io`
+- 注册一个[OAuth App](https://github.com/settings/developers)，注册时`Authorization callback URL`这一栏填你的博客地址`https://subshine.github.io`
 - github里新建一个项目，取名为`blog-comments`，名字无所谓
 - 修改`_config.yml`中的gittalk参数，其中clientID和clientSecret改成自己的，从settings -> Develop Settings 点进查看。
 
@@ -184,6 +187,6 @@ google:
 
 恭喜你，到这里你就拥有了一个还算完整的个人博客了，如果想定制自己的风格，请自行去该模板的github主页学习 ^_^。
 
-最后，你可以查看我的[个人博客](https://feedliu.github.io/)，看看效果，也可以查看[github项目](https://github.com/feedliu/feedliu.github.io)，看我具体是如果修改的。
+最后，你可以查看我的[个人博客](https://subshine.github.io/)，看看效果，也可以查看[github项目](https://github.com/feedliu/feedliu.github.io)，看我具体是如果修改的。
 
 谢谢你耐心的看完这篇博客，如果觉得对你有用，还请去我的github点个star，谢谢，也别忘了给模板作者点个star ^_^。
