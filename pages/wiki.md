@@ -8,7 +8,9 @@ menu: 维基
 permalink: /wiki/
 ---
 
-> 记多少命令和快捷键会让脑袋爆炸呢？
+> 因为年轻，所以饱含希望;
+  因为年轻，所以热泪盈眶;
+  因为年轻，所以拥抱未来。
 
 <ul class="listing">
 {% for wiki in site.wiki %}
