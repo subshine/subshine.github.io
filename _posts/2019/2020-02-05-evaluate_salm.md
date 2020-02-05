@@ -118,9 +118,9 @@ evo_traj kitti KITTI_00_ORB.txt KITTI_00_SPTAM.txt --ref=KITTI_00_gt.txt -p --pl
 ```
 ![slam_evo](https://github.com/subshine/subshine.github.io/blob/master/images/blog/slam_evo.png?raw=true)
 
-![](https://github.com/subshine/subshine.github.io/blob/master/images/blog/slam_evo_rpy.png)
+![](https://github.com/subshine/subshine.github.io/blob/master/images/blog/slam_evo_rpy.png?raw=true)
 
-![slam_evo_xyz_view](../../images/blog/slam_evo_xyz_view.png)
+![slam_evo_xyz_view](https://github.com/subshine/subshine.github.io/blob/master/images/blog/slam_evo_xyz_view.png?raw=true)
 
 ### 2、对轨迹进行度量
 
@@ -133,9 +133,9 @@ mkdir results
 evo_ape kitti KITTI_00_gt.txt KITTI_00_ORB.txt  -va --plot --plot_mode xz --save_results results/ORB.zip
 ```
 
-![slam_orb_ape](../../images/blog/slam_orb_ape.png)
+![slam_orb_ape](https://github.com/subshine/subshine.github.io/blob/master/images/blog/slam_orb_ape.png?raw=true)
 
-![slam_ape_map](../../images/blog/slam_ape_map.png)
+![slam_ape_map](https://github.com/subshine/subshine.github.io/blob/master/images/blog/slam_ape_map.png?raw=true)
 
 ### 3、从度量中处理多个结果
 
@@ -217,17 +217,18 @@ rosbag play ~/MH_01_easy.bag
 evo_traj tum ./result.csv ./loop_result.csv -p --plot_mode=xyz
 ```
 
-![vins_mono_MH_01_trajectory](../../images/blog/vins_mono_MH_01_trajectory.png)
+![vins_mono_MH_01_trajectory](https://github.com/subshine/subshine.github.io/blob/master/images/blog/vins_mono_MH_01_trajectory.png?raw=true)
 
 
 
-![vins_mono_rpy_view](../../images/blog/vins_mono_rpy_view.png)
+![vins_mono_rpy_view](https://github.com/subshine/subshine.github.io/blob/master/images/blog/vins_mono_rpy_view.png?raw=true)
 
-![vins_mono_xyz_view](../../images/blog/vins_mono_xyz_view.png)2、与真值（ground_trith）的比较
+![vins_mono_xyz_view](https://github.com/subshine/subshine.github.io/blob/master/images/blog/vins_mono_xyz_view.png?raw=true)
+2、与真值（ground_trith）的比较
 
-![2020-02-05 22-05-50屏幕截图](../../images/blog/2020-02-05%2022-05-50%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+![2020-02-05 22-05-50屏幕截图](https://github.com/subshine/subshine.github.io/blob/master/images/blog/2020-02-05%2022-05-50%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png?raw=true)
 
-![vins_mono_map_ref_gt](../../images/blog/vins_mono_map_ref_gt.png)
+![vins_mono_map_ref_gt](https://github.com/subshine/subshine.github.io/blob/master/images/blog/vins_mono_map_ref_gt.png?raw=true)
 
-![vins_mono_ref_gt_ape](../../images/blog/vins_mono_ref_gt_ape.png)
+![vins_mono_ref_gt_ape](https://github.com/subshine/subshine.github.io/blob/master/images/blog/vins_mono_ref_gt_ape.png?raw=true)
 
