@@ -116,11 +116,9 @@ pip install numpy --upgrade --user
 cd test/data
 evo_traj kitti KITTI_00_ORB.txt KITTI_00_SPTAM.txt --ref=KITTI_00_gt.txt -p --plot_mode=xz
 ```
-https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/many-faces-of-RL.png?raw=true
-
 ![slam_evo](https://github.com/subshine/subshine.github.io/blob/master/images/blog/slam_evo.png?raw=true)
 
-![](../../images/blog/slam_evo_rpy.png)
+![](https://github.com/subshine/subshine.github.io/blob/master/images/blog/slam_evo_rpy.png)
 
 ![slam_evo_xyz_view](../../images/blog/slam_evo_xyz_view.png)
 
