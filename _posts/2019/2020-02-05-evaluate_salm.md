@@ -29,6 +29,7 @@ evo库提供可执行文件以及库用于处理，评估以及对比各个SLAM�
 - ROS bag 包使用基于以下话题`geometry_msgs/PoseStamped`, `geometry_msgs/TransformStamped`, `geometry_msgs/PoseWithCovarianceStamped` or `nav_msgs/Odometry` topics
 
   [更详细的支持文件格式介绍参考](https://github.com/MichaelGrupp/evo/wiki/Formats)
+  
 
   
 
@@ -115,8 +116,8 @@ pip install numpy --upgrade --user
 cd test/data
 evo_traj kitti KITTI_00_ORB.txt KITTI_00_SPTAM.txt --ref=KITTI_00_gt.txt -p --plot_mode=xz
 ```
-
-![slam_evo](../../images/blog/slam_evo.png)
+https://github.com/feedliu/feedliu.github.io/blob/master/images/blog/many-faces-of-RL.png?raw=true
+![slam_evo](https://github.com/subshine/subshine.github.io/blob/master/images/blog/slam_evo.png?raw=true)
 
 ![](../../images/blog/slam_evo_rpy.png)
 
